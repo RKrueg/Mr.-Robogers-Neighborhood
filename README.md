@@ -32,7 +32,8 @@ _[MIT](https://choosealicense.com/licenses/mit/)_
 
 Copyright (c) _October 28, 2022_ _Ryan Krueger_
 
-```Describe: numInput()
+```
+Describe: numInput()
 
 Test: "It should return an array of numbers from 0 to the user's inputted number"
 Code: numInput(7);
