@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+p {
+  font-weight: 900;
+  border;
+}
+
+html {
+  background-image: url(http://cdn7.dissolve.com/p/D1201_91_005/D1201_91_005_0004_600.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
