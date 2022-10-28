@@ -1,9 +1,9 @@
-function collectInput(input) {
-  let countList = [];
-  for (index = 0; index = input; index + 1) {
-    countList.push(index);
+function numInput (number) {
+  newNum = [];
+  for (i = 0; i <= number; i + 1) {
+    newNum.push(number);
   }
-return countList;
+  return newNum;
 }
 
-
+console.log(numInput(5))
