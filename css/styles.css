@@ -1,11 +1,21 @@
 body {
   text-align: center;
   font-size: 50px;
-  color: white;
+  color: black;
 }
 
 h1 {
   text-decoration: underline;
+}
+
+button {
+  border: solid;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 p {
@@ -14,7 +24,7 @@ p {
 }
 
 html {
-  background-image: url(http://cdn7.dissolve.com/p/D1201_91_005/D1201_91_005_0004_600.jpg);
+  background-image: url(https://img.freepik.com/free-vector/cartoon-style-neighborhood-houses-illustration_52683-81725.jpg?w=2000);
   background-repeat: no-repeat;
   background-size:cover;
 }
