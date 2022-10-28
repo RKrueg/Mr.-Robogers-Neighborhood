@@ -34,6 +34,7 @@ function containesA3 (inputNum) {
   return hasA3;
 }
 
+
 function rogers(inputNum) {
   if (containesA1(inputNum) === true) {
     return "Beep!"
@@ -41,7 +42,22 @@ function rogers(inputNum) {
   return "Boop!"
   } else if (containesA3(inputNum) === true) {
     return "Won't you be my neighbor?"
+  } else {   
   }
+}
+
+window.addEventListener("load" , function(){
+  let form = document.querySelector("form");
+  form.addEventListener("submit" , handleSubmit);
+});
+
+function handleSubmit(event) {
+  event.preventDefault();
+  
+  const input = document.getElementById('input').value;
+
+  const p = document.querySelector('p#output');
+  document.getElementById('output').innerText = rogers(input); 
 }
 
 
