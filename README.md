@@ -23,7 +23,6 @@ _The application allows users to input a number of their choice, hit submit, and
 ## Known Bugs
 
 * _Currently, the site does not follow the rules in the description._
-* _When you hit submit, numbers that are not changed do not display on the page._
 
 
 ## License
