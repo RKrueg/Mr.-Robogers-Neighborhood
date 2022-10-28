@@ -1,8 +1,7 @@
 function numInput (inputNum) {
   let newNum = [];
   for (i = 0; i <= inputNum; i += 1) {
-    //newNum.push(rogers(i));
-      newNum.push(rogers(i));
+    newNum.push(rogers(i));
   }
   return newNum;
 }
@@ -46,7 +45,7 @@ function rogers(inputNum) {
   } else if (containesA3(inputNum) === true) {
     return "Won't you be my neighbor?"
   } else {
-    return numInput   
+    return [i];  
   }
 }
 
