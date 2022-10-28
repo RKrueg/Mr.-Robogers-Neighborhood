@@ -1,7 +1,7 @@
-function numInput (number) {
+function numInput (inputNum) {
   newNum = [];
-  for (i = 0; i <= number; i + 1) {
-    newNum.push(number);
+  for (i = 0; i <= inputNum; i += 1) {
+    newNum.push(i);
   }
   return newNum;
 }
