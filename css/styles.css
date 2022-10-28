@@ -10,7 +10,7 @@ h1 {
 
 p {
   font-weight: 900;
-  border;
+  word-wrap: break-word;
 }
 
 html {

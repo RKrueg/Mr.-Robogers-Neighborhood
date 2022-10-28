@@ -1,16 +1,18 @@
 function numInput (inputNum) {
-  newNum = [];
+  let newNum = [];
   for (i = 0; i <= inputNum; i += 1) {
-    newNum.push(i);
+    newNum.push(rogers(i));
   }
   return newNum;
 }
 
 function containesA1 (inputNum) {
-  let hasA1 = false;
+  let hasA1 = '';
   let beep = inputNum + "".split("");
-  if (beep[0] === '1' || beep[1] === '1' || beep[2] === '1' || beep[3] === '1' || beep[4] === '1' || beep[5] === '1') {
+  if (beep[0] === '1' || beep[0] && beep[1] === 1) {
     hasA1 = true;
+  } else if (beep[0] === '1' && beep[1] != '1') {
+    hasA1 = false;
   }
   return hasA1;
 }
@@ -18,7 +20,7 @@ function containesA1 (inputNum) {
 function containesA2 (inputNum) {
   let hasA2 = false;
   let boop = inputNum + "".split("");
-  if (boop[0] === '2' || boop[1] === '2' || boop[2] === '2' || boop[3] === '2' || boop[4] === '2' || boop[5] === '2') {
+  if (boop[0] === '2' || boop[1] === '2') {
     hasA2 = true;
   }
   return hasA2;
@@ -28,7 +30,7 @@ function containesA2 (inputNum) {
 function containesA3 (inputNum) {
   let hasA3 = false;
   let boop = inputNum + "".split("");
-  if (boop[0] === '3' || boop[1] === '3' || boop[2] === '3' || boop[3] === '3' || boop[4] === '3' || boop[5] === '3') {
+  if (boop[0] === '3' || boop[1] === '3') {
     hasA3 = true;
   }
   return hasA3;
@@ -57,7 +59,7 @@ function handleSubmit(event) {
   const input = document.getElementById('input').value;
 
   const p = document.querySelector('p#output');
-  document.getElementById('output').innerText = rogers(input); 
+  document.getElementById('output').innerText = numInput(input); 
 }
 
 
