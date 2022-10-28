@@ -12,4 +12,8 @@ Expected Output: True
 
 Test: "If a number contains a 1, all digits are replaced with "Beep!"
 Code: numInput(10)
-Expected Output: [0, "Beep!",3,4,5,6,7,8,9,"Beep!"]
+Expected Output: [0, "Beep!",2,3,4,5,6,7,8,9,"Beep!"]
+
+Test: "If a number contains a 2, all digits are replaced with "Boop!"
+Code: numInput(2)
+Expected Output: [0,1,"Boop!"]
